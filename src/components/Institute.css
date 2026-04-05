@@ -1,0 +1,41 @@
+.institute {
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.institute-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* IMAGE */
+.institute-image img {
+  width: 100%;
+  max-width: 1000px;
+  /* max-height: 1000px; */
+  zoom: 200%;
+  border-radius: 10px;
+}
+
+/* TEXT */
+.institute-content h2 {
+  font-size: 32px;
+  color: #0c1c5a;
+  margin-bottom: 20px;
+}
+
+.institute-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+@media (max-width: 768px) {
+  .institute-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

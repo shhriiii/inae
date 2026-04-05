@@ -1,0 +1,28 @@
+.footer {
+  background: #0c1c5a;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.8;
+}

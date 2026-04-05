@@ -1,0 +1,48 @@
+.speakers {
+  background: #f4f6fb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.speakers h2 {
+  font-size: 32px;
+  color: #0c1c5a;
+  margin-bottom: 40px;
+}
+
+.speakers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.speaker-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.speaker-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.speaker-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.speaker-card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+}

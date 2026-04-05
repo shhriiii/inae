@@ -1,0 +1,28 @@
+.sponsors {
+  background: #f4f6fb;
+  padding: 30px 0;
+}
+
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  background: white;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+
+  border-radius: 10px;
+}
+
+.sponsor-container img {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.sponsor-container img:hover {
+  transform: scale(1.1);
+}

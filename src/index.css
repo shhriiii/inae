@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ffcc00; /* optional hover effect */
+}
