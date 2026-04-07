@@ -10,12 +10,12 @@ const Contact = () => {
 
         <div className="contact-card">
           <h3>Email</h3>
-          {/* <p>inae2026@nitrr.ac.in</p> */}
+          <p><b>yeiss-2026@nitrr.ac.in</b></p>
         </div>
 
         <div className="contact-card">
           <h3>Phone</h3>
-          {/* <p>+91-9876543210</p> */}
+          <p><b>+91-8269094939</b></p>
         </div>
 
 <div className="contact-card">

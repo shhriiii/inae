@@ -14,11 +14,11 @@
   width: 80%;
   margin: auto;
 
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .sponsor-container img {
-  height: 60px;
+  height: 150px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }

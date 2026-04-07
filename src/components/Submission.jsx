@@ -45,11 +45,11 @@ const Submission = () => {
 
           <div className="btn-group">
             <a href="https://cmt.microsoft.com" target="_blank">
-              <button>Abstract</button>
+              <button>Submit Idea</button>
             </a>
-            <a href="https://cmt.microsoft.com" target="_blank">
+            {/* <a href="https://cmt.microsoft.com" target="_blank">
               <button>Full Paper</button>
-            </a>
+            </a> */}
           </div>
         </div>
 

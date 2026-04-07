@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
 
         <div>
-          <h3>INAE 2026</h3>
+          <h3>YEISS 2026</h3>
           <p>Empowering Youth for Sustainable Innovation</p>
         </div>
 
@@ -22,14 +22,14 @@ const Footer = () => {
 
         <div>
           <h4>Contact</h4>
-          <p>email</p>
+          <p>yeiss-2026@nitrr.ac.in</p>
           <p>NIT Raipur, India</p>
         </div>
 
       </div>
 
       <p className="footer-bottom">
-        © 2026 INAE Youth Conclave | NIT Raipur
+        © 2026 YEISS 2026 | NIT Raipur
       </p>
 
     </footer>
