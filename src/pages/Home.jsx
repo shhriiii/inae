@@ -8,6 +8,7 @@ import Speakers from "../components/Speakers";
 import Submission from "../components/Submission";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Advisory from "../components/Advisory";
 const Home = () => {
   return (
 <>
@@ -18,6 +19,7 @@ const Home = () => {
   <ImportantDates />
     <Institute />
     <Speakers />
+      <Advisory /> 
     <Submission />
     <Contact />
     <Footer />

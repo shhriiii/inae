@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* LEFT */}
       <div className="nav-left">
         {/* logo yaha */}
-        <img  src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjlkNDk5ZDJlMzY4ODE5MTkyN2IzNDcxZjNkZmIyMjI6ZmlsZV8wMDAwMDAwMDhkYTg3MjA4OWU1OGM5NGE4MjA5YzEzZSIsInRzIjoiMjA1NTAiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6ImZiNGFlYmVjZGM1YWNjYzA3NzdkODczNGUxOWUzZmQzNjQ2ZjhiNDMyMTY0NDgwNzcyNDFkNmE3YTIwZmRlMGMiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJjcCI6bnVsbCwibWEiOm51bGx9" alt="logo" className="logo" />
+        <img  src="https://i.pinimg.com/736x/95/b8/a3/95b8a301ec506f9eaa0f558c427ee8d6.jpg" alt="logo" className="logo" />
         <span className="title">YEISS 2026</span>
       </div>
 
