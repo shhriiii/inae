@@ -13,6 +13,7 @@ import HackathonPage from "./pages/HackathonPage";
 import ArticlePage from "./pages/ArticlePage";
 import AbstractPage from "./pages/AbstractPage";
 import FullPaperPage from "./pages/FullPaperPage";
+import CommitteePage from "./pages/CommitteePage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/sponsors" element={<SponsorsPage />} />
       <Route path="/speakers" element={<SpeakersPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/committee" element={<CommitteePage />} />
       <Route path="/dates" element={<DatesPage />} />
 
       {/* SUBMISSION FLOW */}

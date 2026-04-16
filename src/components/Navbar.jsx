@@ -18,6 +18,7 @@ const Navbar = () => {
   <li><Link to="/dates">Important Dates</Link></li>
   <li><Link to="/submission">Call for Papers</Link></li>
   <li><Link to="/speakers">Speakers</Link></li>
+  <li><Link to="/committee">Committee</Link></li>
   <li><Link to="/contact">Contact</Link></li>
 </ul>
 

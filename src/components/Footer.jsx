@@ -18,6 +18,7 @@ const Footer = () => {
   <p><Link to="/speakers">Speakers</Link></p>
   <p><Link to="/submission">Submission</Link></p>
   <p><Link to="/contact">Contact</Link></p>
+  <p><Link to="/committee">Committee</Link></p>
 </div>
 
         <div>

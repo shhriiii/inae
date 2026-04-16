@@ -9,6 +9,7 @@ import Submission from "../components/Submission";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Advisory from "../components/Advisory";
+import Committee from "../components/Committee";
 const Home = () => {
   return (
 <>
@@ -19,7 +20,7 @@ const Home = () => {
   <ImportantDates />
     <Institute />
     <Speakers />
-      <Advisory /> 
+  <Committee />  
     <Submission />
     <Contact />
     <Footer />
