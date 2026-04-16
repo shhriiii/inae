@@ -31,6 +31,9 @@ const Footer = () => {
 
       <p className="footer-bottom">
         © 2026 YEISS 2026 | NIT Raipur
+        <br></br>
+        <br></br>
+        The Microsoft CMT service was used for managing the peer-reviewing process for this conference.<br></br> This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
       </p>
 
     </footer>
