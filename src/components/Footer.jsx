@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div>
           <h4>Contact</h4>
-          <p>yeiss-2026@nitrr.ac.in</p>
+          <p>yeiss@nitrr.ac.in</p>
           <p>NIT Raipur, India</p>
         </div>
 
