@@ -6,6 +6,7 @@ const SubmissionPage = () => {
     <>
       <Navbar />
       <Submission />
+      <Footer />
     </>
   );
 };

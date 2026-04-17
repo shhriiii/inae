@@ -9,6 +9,7 @@ const SponsorsPage = () => {
         Our Sponsors
       </h1>
       <Sponsors />
+      <Footer />
     </>
   );
 };

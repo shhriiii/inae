@@ -6,6 +6,7 @@ const DatesPage = () => {
     <>
       <Navbar />
       <ImportantDates />
+      <Footer />
     </>
   );
 };
