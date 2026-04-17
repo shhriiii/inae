@@ -10,3 +10,18 @@ a:visited {
 a:hover {
   color: #ffcc00; /* optional hover effect */
 }
+.cmt-footer {
+  background: #0c1c5a;
+  color: white;
+  text-align: center;
+   padding-top: px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cmt-footer p {
+  margin: 0;
+}
