@@ -10,7 +10,7 @@ const Contact = () => {
 
         <div className="contact-card">
           <h3>Email</h3>
-          <p><b>yeiss-2026@nitrr.ac.in</b></p>
+          <p><b>yeiss@nitrr.ac.in</b></p>
         </div>
 
         <div className="contact-card">
