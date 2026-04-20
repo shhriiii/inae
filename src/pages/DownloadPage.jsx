@@ -14,7 +14,7 @@ const DownloadPage = () => {
         <ul className="download-list">
           <li>
             <a href="https://drive.google.com/file/d/1n95Fs-u6ECC5yBqUojiUMhlpbfWPXh-p/view?usp=drivesdk" target="_blank">
-              ICDSINC Banner
+              YEISS Banner
             </a>
           </li>
 
