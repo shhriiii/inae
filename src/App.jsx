@@ -14,6 +14,7 @@ import ArticlePage from "./pages/ArticlePage";
 import AbstractPage from "./pages/AbstractPage";
 import FullPaperPage from "./pages/FullPaperPage";
 import CommitteePage from "./pages/CommitteePage";
+import DownloadPage from "./pages/DownloadPage";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
 
       <Route path="/submission/article/abstract" element={<AbstractPage />} />
       <Route path="/submission/article/full" element={<FullPaperPage />} />
+
+<Route path="/download" element={<DownloadPage />} />
     </Routes>
   );
 }

@@ -1,0 +1,30 @@
+.download {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.download h2 {
+  text-align: center;
+  color: #0c1c5a;
+  margin-bottom: 30px;
+}
+
+.download-list {
+  list-style: none;
+  padding: 0;
+}
+
+.download-list li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.download-list a {
+  text-decoration: none;
+  color: #333;
+}
+/* 
+.download-list a:hover {
+  text-shadow: #ddd2d2;
+} */

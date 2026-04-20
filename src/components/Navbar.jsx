@@ -16,10 +16,11 @@ const Navbar = () => {
 <ul className="nav-links">
   <li><Link to="/">Home</Link></li>
   <li><Link to="/dates">Important Dates</Link></li>
-  <li><Link to="/submission">Call for Papers</Link></li>
+  <li><Link to="/submission">Paper Submission </Link></li>
   <li><Link to="/speakers">Speakers</Link></li>
   <li><Link to="/committee">Committee</Link></li>
   <li><Link to="/contact">Contact</Link></li>
+  <li><Link to="/download">Download</Link></li>
 </ul>
 
       {/* RIGHT */}
