@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* RIGHT */}
       <div className="nav-buttons">
         <a 
-  href="https://drive.google.com/file/d/1qJfyOSSHavftUiCcA8nVfDyCTXPyWO89/view?usp=sharing" 
+  href="https://drive.google.com/file/d/1n95Fs-u6ECC5yBqUojiUMhlpbfWPXh-p/view?usp=drivesdk" 
   target="_blank" 
   rel="noopener noreferrer"
 >
