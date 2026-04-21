@@ -15,21 +15,26 @@ const Contact = () => {
 
         <div className="contact-card">
           <h3>Phone</h3>
-          <p><b>+91-8269094939</b></p>
+
+          <p><b>Dr. Sanjeev Kumar:</b> 9410045437</p>
+          <p><b>Dr. Ashish Kumar Dash:</b> 9406148487</p>
+          <p><b>Dr. Jitendra Kumar Rout:</b> 7008153233</p>
+          <p><b>Dr. Chandan Kumar Singh:</b> 7276170435</p>
+
         </div>
 
-<div className="contact-card">
-  <h3>Location</h3>
+        <div className="contact-card">
+          <h3>Location</h3>
 
-  <iframe
-    src="https://www.google.com/maps?q=NIT+Raipur&output=embed"
-    width="100%"
-    height="200"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-  ></iframe>
-</div>
+          <iframe
+            src="https://www.google.com/maps?q=NIT+Raipur&output=embed"
+            width="100%"
+            height="200"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
 
       </div>
 
