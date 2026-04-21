@@ -39,3 +39,11 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.submission ol {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.submission li {
+  margin-bottom: 10px;
+}
