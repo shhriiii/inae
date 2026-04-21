@@ -30,7 +30,7 @@ const Navbar = () => {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  <button className="btn filled">Download</button>
+  {/* <button className="btn filled">Download</button> */}
 </a>
       <button 
   className="btn filled"
