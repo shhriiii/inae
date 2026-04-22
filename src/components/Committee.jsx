@@ -103,7 +103,7 @@ const Committee = () => {
     { name: "Col Shobhit Rai", role: "Co-Patron - Deputy Executive Director, INAE" },
     { name: "Prof. Samir Bajpai", role: "Chair - Head, CDC, NIT Raipur" },
     { name: "Dr. Archana Sharma", role: "Co-Chair - ANRF PM Professor, NIT Raipur" },
-    { name: "Dr. Toshan Meenpal", role: "Chairperson - Associate Professor, ECE, NIT Raipur" },
+    // { name: "Dr. Toshan Meenpal", role: "Chairperson - Associate Professor, ECE, NIT Raipur" },
   ];
 
   const organizingSecretaries = [
@@ -209,4 +209,4 @@ const Committee = () => {
   );
 };
 
-export default Committee;
+export default Committee; 
