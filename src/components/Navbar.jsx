@@ -8,6 +8,7 @@ const Navbar = () => {
       {/* LEFT */}
       <div className="nav-left">
         {/* logo yaha */}
+        <img  src="https://www.nitrr.ac.in/images/nitrr_new_logo_new.png" alt="logo" className="logo" />
         <img  src="https://i.pinimg.com/736x/95/b8/a3/95b8a301ec506f9eaa0f558c427ee8d6.jpg" alt="logo" className="logo" />
         <span className="title">YEISS 2026</span>
       </div>
@@ -26,7 +27,7 @@ const Navbar = () => {
       {/* RIGHT */}
       <div className="nav-buttons">
         <a 
-  href="https://drive.google.com/file/d/1n95Fs-u6ECC5yBqUojiUMhlpbfWPXh-p/view?usp=drivesdk" 
+  href="https://drive.google.com/file/d/1FGTOeXjaFvmhEJOkSruQf4hCx5GIkQeM/view?usp=sharing" 
   target="_blank" 
   rel="noopener noreferrer"
 >
