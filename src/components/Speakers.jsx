@@ -8,8 +8,8 @@ const Speakers = () => {
       img: "https://femina.wwmindia.com/thumb/content/2022/nov/tessy-thumnail1668671022.jpg?width=1200&height=900"
     },
     {
-      name: "Prof. Shivaji Chakraborty",
-      role: "Jadavpur University",
+      name: "Dr. Sivaji Chakravorti ",
+      role: "Vice President INAE",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8z_x-MQo0zAfmvF3aSI8u7jef34SYGTrKWQ&s"
     },
     {
