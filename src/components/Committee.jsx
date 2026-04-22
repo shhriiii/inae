@@ -96,7 +96,7 @@ const Committee = () => {
 
   const organizingMain = [
     { name: "Dr. N. V. Ramana Rao", role: "Chief Patron - Director, NIT Raipur" },
-    { name: "Dr. Sivaji Chakravorti", role: "Chief Patron - Vice President, INAE" },
+    { name: "Dr. Sivaji Chakravorti", role: "Vice President, INAE" },
     { name: "Prof. G.P.S.C Mishra", role: "Patron - Dean R & C, NIT Raipur" },
     { name: "Prof. Shubhrata Gupta", role: "Patron - Dean Academics, NIT Raipur" },
     { name: "Prof. N.D. Londhe", role: "Co-Patron - Registrar, NIT Raipur" },
