@@ -128,7 +128,7 @@ const Committee = () => {
     {
       name: "Dr. Jitendra Rout",
       role: "Assistant Professor, CSE, NIT Raipur",
-      image: "https://media.licdn.com/dms/image/v2/C4E03AQEwrwlJd7Izfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1640620740035?e=1778716800&v=beta&t=6aLNSlX6fRcDK1IcvuhmWRDqTELBRtYM3uHTDUzx4bY",
+      image: "https://nitrr.ac.in/cse/jitendra%20.jpg",
       email: "jkrout.cs@nitrr.ac.in",
     },
     {

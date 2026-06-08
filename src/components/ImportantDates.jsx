@@ -3,9 +3,9 @@ import "./ImportantDates.css";
 const ImportantDates = () => {
   const dates = [
     { title: "Call for Papers", date: "15 April 2026" },
-    { title: "Abstract Submission Deadline", date: "15 May 2026" },
-    { title: "Acceptance Notification", date: "15 June 2026" },
-    { title: "Full Paper Submission", date: "5 July 2026" },
+    { title: "Abstract Submission Deadline", date: "15 June 2026" },
+    { title: "Acceptance Notification", date: "30 June 2026" },
+    { title: "Full Paper Submission", date: "10 July 2026" },
     { title: "Final Submission", date: "25 August 2026" },
     { title: "Early Registration", date: "25 August 2026" },
     { title: "Final Registration Deadline", date: "10 September 2026" },
