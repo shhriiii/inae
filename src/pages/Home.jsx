@@ -21,7 +21,7 @@ const Home = () => {
     <Institute />
     <Speakers />
   <Committee />  
-    <Submission />
+    {/* <Submission /> */}
     <Contact />
     <Footer />
 </>

@@ -16,6 +16,10 @@ import FullPaperPage from "./pages/FullPaperPage";
 import CommitteePage from "./pages/CommitteePage";
 import DownloadPage from "./pages/DownloadPage";
 import RegisterForm from "./pages/RegisterForm";
+import HackathonSubmission from "./pages/HackathonSubmission";
+import ProjectSubmission from "./pages/ProjectSubmission";
+import ThesisSubmission from "./pages/ThesisSubmission";
+import MeetSubmission from "./pages/MeetSubmission";
 
 function App() {
   return (
@@ -38,6 +42,25 @@ function App() {
 
       <Route path="/submission/article/abstract" element={<AbstractPage />} />
       <Route path="/submission/article/full" element={<FullPaperPage />} />
+      <Route
+  path="/hackathon-submission"
+  element={<HackathonSubmission />}
+/>
+
+<Route
+  path="/project-submission"
+  element={<ProjectSubmission />}
+/>
+
+<Route
+  path="/thesis-submission"
+  element={<ThesisSubmission />}
+/>
+
+<Route
+  path="/meet2026"
+  element={<MeetSubmission />}
+/>
 
 <Route path="/download" element={<DownloadPage />} />
     </Routes>

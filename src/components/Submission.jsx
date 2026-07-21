@@ -72,7 +72,7 @@ const Submission = () => {
   • ET 6: Emerging Challenges and Future Technologies
 
   <br /><br />
-  <b>(c) Short Article Submission (Abstract of the work done) </b>
+  <b>(c) National Conference MEET 2026 </b>
   <br />
   <b>(d) Thesis Submission (Thesis Abstract)</b>
 </li>

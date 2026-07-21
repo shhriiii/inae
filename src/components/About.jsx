@@ -1,35 +1,45 @@
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <section className="about">
-
       <div className="about-container">
         <h2>About Conclave</h2>
 
         <p>
-          This program YEISS will be organized under a unified umbrella comprising Youth Conclave (Thesis Presentation, Project Exhibition, Hackathon) and National Conference on Multidisciplinary Engineering and Emerging Technology (MEET 2026).
+          This program YEISS will be organized under a unified umbrella
+          comprising Youth Conclave (Thesis Presentation, Project Exhibition,
+          Hackathon) and National Conference on Multidisciplinary Engineering
+          and Emerging Technology (MEET 2026).
         </p>
 
-        {/* <p>
-          The conclave aims to create a dynamic platform where traditional
-          Indian knowledge systems converge with emerging digital technologies
-          to shape the future of engineering and innovation.
-        </p>
+        <div className="submission-buttons">
+          <Link to="/hackathon-submission">
+            <button className="btn filled">
+              Hackathon Submission
+            </button>
+          </Link>
 
-        <p>
-          It envisions empowering young minds to transform grassroots wisdom
-          into digitally enabled, sustainable, and globally competitive
-          technological solutions aligned with the vision of Viksit Bharat 2047.
-        </p>
+          <Link to="/project-submission">
+            <button className="btn filled">
+              Project Submission
+            </button>
+          </Link>
 
-        <p>
-          Participants will also get the opportunity to interact with INAE
-          Fellows, researchers, industry leaders, and academicians, fostering
-          collaboration and innovation.
-        </p> */}
+          <Link to="/thesis-submission">
+            <button className="btn filled">
+              Thesis Submission
+            </button>
+          </Link>
+
+          <Link to="/meet2026">
+            <button className="btn filled">
+              National Conference MEET 2026
+            </button>
+          </Link>
+        </div>
       </div>
-
     </section>
   );
 };
