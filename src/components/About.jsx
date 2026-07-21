@@ -11,7 +11,7 @@ const About = () => {
           The INAE Youth Conclave 2026, centered on the theme
           "Youth Engineering for India’s Sustainable Self-Reliance (YEISS-2026)",
           will be hosted by the National Institute of Technology Raipur from
-          25–26 September 2026.
+          26–27 October 2026.
         </p>
 
         <p>

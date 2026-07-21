@@ -31,16 +31,51 @@ const Submission = () => {
     </li>
 
     <li>
-      There are 4 categories of submissions:
-      <br />
-      (a) Hackathon Submission (Core idea, Methodology, Implementation procedure in abstract format)
-      <br />
-      (b) Project Submission (Methodology, Implementation procedure in abstract format)
-      <br />
-      (c) Short Article Submission (Abstract of the work done)
-      <br />
-      (d) Thesis Submission (Thesis Abstract)
-    </li>
+  There are 4 categories of submissions:
+  <br />
+  <b>(a) Hackathon Submission (Core idea, Methodology, Implementation procedure in abstract format) </b>
+
+  {/* <br /><br /> */}
+  <strong>Hackathon Themes</strong>
+  <br />
+  Participants may develop innovative solutions for hackathon in any of the following thematic areas:
+  <br />
+  • HT1: Eco-Friendly Housing Models with Near-Zero Carbon Footprint <br />
+  • HT2: AI-Based Building Energy Monitoring and Optimization Systems <br />
+  • HT3: Smart Irrigation Systems Based on Plant Health and Environmental Sensing <br />
+  • HT4: AI-Enabled Predictive Maintenance for Industrial Equipment <br />
+  • HT5: AI-Assisted Decision Support Systems for Engineering and Public Services <br />
+  • HT6: Smart Healthcare Devices for Remote Monitoring and Preventive Care <br />
+  • HT7: Real-Time Disaster Detection, Early Warning, and Emergency Response Systems <br />
+  • HT8: Smart City Solutions for Sustainable Urban Infrastructure <br />
+  • HT9: IoT-Enabled Smart Farming Devices for Precision Agriculture <br />
+  • HT10: AI-Based Scrap Management and Intelligent Waste Segregation Systems <br />
+  • HT11: Circular Economy Solutions for Resource Recovery and Sustainable Manufacturing <br />
+  • HT12: Clean Energy Technologies and Renewable Energy Innovations <br />
+  • HT13: Industry 5.0 Solutions for Human-Centric Smart Manufacturing <br />
+  • HT14: Digital Twin Applications for MSMEs and Smart Factories <br />
+  • HT15: Bio-Inspired Engineering Solutions for Sustainable Technologies
+
+  <br /><br />
+  <b>(b) Project Submission (Methodology, Implementation procedure in abstract format)</b>
+
+  {/* <br /><br /> */}
+  <strong>Project Exhibition Themes</strong>
+  <br />
+  Participants may develop innovative solutions for Project Exhibition in any of the following thematic areas:
+  <br />
+  • ET 1: Eco-Friendly Construction: Blending Heritage with Sustainability <br />
+  • ET 2: Metallurgy, Water & Energy Management: From Legacy to Cutting-Edge Solutions <br />
+  • ET 3: Bio-Inspired Engineering: Nature-Inspired Innovations for Future Technologies <br />
+  • ET 4: AI-Driven Smart Welding & Additive Manufacturing <br />
+  • ET 5: Next-Generation MSMEs: Digital Twins and Smart Manufacturing <br />
+  • ET 6: Emerging Challenges and Future Technologies
+
+  <br /><br />
+  <b>(c) Short Article Submission (Abstract of the work done) </b>
+  <br />
+  <b>(d) Thesis Submission (Thesis Abstract)</b>
+</li>
   </ol>
 
   <h4>Submission Instructions:</h4>

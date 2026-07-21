@@ -13,7 +13,7 @@ const DownloadPage = () => {
 
         <ul className="download-list">
           <li>
-            <a href="https://drive.google.com/file/d/1GfsdxXO6GdpSPcMBOaUBkMOcA9umEhTD/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1UheAlg2TmS8cuiJzGKMR0K6aY5_alWoI/view?usp=sharing" target="_blank">
               YEISS Flyer
             </a>
           </li>
@@ -23,9 +23,14 @@ const DownloadPage = () => {
               Conference Brochure
             </a>
           </li> */}
+          <li>
+            <a href="https://drive.google.com/file/d/1V_EARQV7o6F--7VYgOPF3272Frt1lhFf/view?usp=sharing" target="_blank">
+              Declaration Form
+            </a>
+          </li>
 
           <li>
-            <a href=" https://www.ieee.org/conferences/publishing/templates" target="_blank">
+            <a href="https://drive.google.com/file/d/1e2s8cCc-60qvLp4dZl2QScGKpdwHAQ--/view?usp=sharing" target="_blank">
               Manuscript Template
             </a>
           </li>

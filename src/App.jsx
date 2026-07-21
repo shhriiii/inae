@@ -15,6 +15,7 @@ import AbstractPage from "./pages/AbstractPage";
 import FullPaperPage from "./pages/FullPaperPage";
 import CommitteePage from "./pages/CommitteePage";
 import DownloadPage from "./pages/DownloadPage";
+import RegisterForm from "./pages/RegisterForm";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/committee" element={<CommitteePage />} />
       <Route path="/dates" element={<DatesPage />} />
+      <Route path="/register" element={<RegisterForm />} />
 
       {/* SUBMISSION FLOW */}
       <Route path="/submission" element={<SubmissionPage />} />

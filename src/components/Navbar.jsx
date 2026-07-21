@@ -33,12 +33,18 @@ const Navbar = () => {
 >
   {/* <button className="btn filled">Download</button> */}
 </a>
-      <button 
+      {/* <button 
   className="btn filled"
   onClick={() => alert("Form link coming Soon!!")}
 >
   Register
-</button>
+</button> */}
+
+<Link to="/register">
+  <button className="btn filled">
+    Register
+  </button>
+</Link>
       </div>
 
     </nav>

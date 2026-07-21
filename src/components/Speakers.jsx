@@ -3,9 +3,9 @@ import "./Speakers.css";
 const Speakers = () => {
   const speakers = [
     {
-      name: "Dr. (Ms) Tessy Thomas",
-      role: " 'Missile Woman' of India', Former Director General of Aeronautical Systems, DRDO",
-      img: "https://femina.wwmindia.com/thumb/content/2022/nov/tessy-thumnail1668671022.jpg?width=1200&height=900"
+      name: "Dr. Biswajyoti Basu",
+      role: " Former Outstanding Scientist and Associate Director, NMRL (DRDO) Ambernath Mumbai.",
+      img: "https://i.pinimg.com/736x/84/46/6c/84466ce501d8adcc6bb264bd0ef68ac4.jpg"
     },
     {
       name: "Dr. Sivaji Chakravorti ",

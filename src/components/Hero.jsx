@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
 
         <h3 className="hero-date">
-          25–26 September 2026
+          26–27 October 2026
         </h3>
 
         <p className="hero-org">
