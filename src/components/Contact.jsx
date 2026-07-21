@@ -19,7 +19,7 @@ const Contact = () => {
           <p><b>Dr. Sanjeev Kumar:</b> 9410045437</p>
           <p><b>Dr. Ashish Kumar Dash:</b> 9406148487</p>
           <p><b>Dr. Jitendra Kumar Rout:</b> 7008153233</p>
-          <p><b>Dr. Chandan Kumar Singh:</b> 7276170435</p>
+          {/* <p><b>Dr. Chandan Kumar Singh:</b> 7276170435</p> */}
 
         </div>
 

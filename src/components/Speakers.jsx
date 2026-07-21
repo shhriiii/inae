@@ -17,11 +17,11 @@ const Speakers = () => {
       role: "Chairman NDMA",
       img: "https://ndma.gov.in/sites/default/files/inline-images/M-DK-Aswal.jpg"
     },
-    {
-      name: "Prof. B. Mahadevan",
-      role: "IIM Bangalore",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBV-stIga-BsnQ99Guz_PBa0VH181aM2g7eg&s"
-    },
+    // {
+    //   name: "Prof. B. Mahadevan",
+    //   role: "IIM Bangalore",
+    //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBV-stIga-BsnQ99Guz_PBa0VH181aM2g7eg&s"
+    // },
   ];
 
   return (

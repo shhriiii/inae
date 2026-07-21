@@ -123,13 +123,13 @@ const Committee = () => {
     },
     {
       name: "Dr. Ashish Dash",
-      role: "Assistant Professor, Mining Engg, NIT Raipur",
+      role: "Associate Professor, Mining Engg, NIT Raipur",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyNMkrVRDK7AJOqNvcUcba8CxaPJNoc2dcA&s",
       email: "akdash.min@nitrr.ac.in",
     },
     {
       name: "Dr. Jitendra Rout",
-      role: "Assistant Professor, CSE, NIT Raipur",
+      role: "Associate Professor, CSE, NIT Raipur",
       image: "https://nitrr.ac.in/cse/jitendra%20.jpg",
       email: "jkrout.cs@nitrr.ac.in",
     },

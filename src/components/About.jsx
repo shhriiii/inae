@@ -8,13 +8,10 @@ const About = () => {
         <h2>About Conclave</h2>
 
         <p>
-          The INAE Youth Conclave 2026, centered on the theme
-          "Youth Engineering for India’s Sustainable Self-Reliance (YEISS-2026)",
-          will be hosted by the National Institute of Technology Raipur from
-          26–27 October 2026.
+          This program YEISS will be organized under a unified umbrella comprising Youth Conclave (Thesis Presentation, Project Exhibition, Hackathon) and National Conference on Multidisciplinary Engineering and Emerging Technology (MEET 2026).
         </p>
 
-        <p>
+        {/* <p>
           The conclave aims to create a dynamic platform where traditional
           Indian knowledge systems converge with emerging digital technologies
           to shape the future of engineering and innovation.
@@ -30,7 +27,7 @@ const About = () => {
           Participants will also get the opportunity to interact with INAE
           Fellows, researchers, industry leaders, and academicians, fostering
           collaboration and innovation.
-        </p>
+        </p> */}
       </div>
 
     </section>
