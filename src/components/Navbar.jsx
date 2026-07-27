@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="nav-left">
         {/* logo yaha */}
         <img  src="https://www.nitrr.ac.in/images/nitrr_new_logo_new.png" alt="logo" className="logo" />
-        <img  src="https://i.pinimg.com/736x/95/b8/a3/95b8a301ec506f9eaa0f558c427ee8d6.jpg" alt="logo" className="logo" />
+        <img  src="https://i.pinimg.com/736x/c7/ff/72/c7ff729013566f7b9009f6f4764e7d29.jpg" alt="logo" className="logo" />
         <span className="title">YEISS 2026</span>
       </div>
 
