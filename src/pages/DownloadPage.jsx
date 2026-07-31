@@ -13,7 +13,7 @@ const DownloadPage = () => {
 
         <ul className="download-list">
           <li>
-            <a href="https://drive.google.com/file/d/1kABBv54cFoI3fQrsJcFtA6wM3oRBhE1v/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/12XMTTHtuhsV46MphrxIvDFJyjOTX4s8Y/view?usp=sharing" target="_blank">
               YEISS Flyer
             </a>
           </li>
