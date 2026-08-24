@@ -10,6 +10,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Advisory from "../components/Advisory";
 import Committee from "../components/Committee";
+import SubmissionRegistration from "../components/SubmissionRegistration";
 const Home = () => {
   return (
 <>
@@ -17,6 +18,7 @@ const Home = () => {
   <Hero />
   <Sponsors />
   <About />
+  <SubmissionRegistration />
   <ImportantDates />
     <Institute />
     <Speakers />

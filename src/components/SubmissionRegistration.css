@@ -1,0 +1,50 @@
+.submission-registration {
+  padding: 35px 20px 25px;
+  background: #f4f6fb;
+}
+
+.submission-registration-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.submission-registration-container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #0c1c5a;
+  margin: 0 0 25px;
+}
+
+.submission-registration-container p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 0 18px;
+  text-align: justify;
+}
+
+.submission-registration-container p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .submission-registration {
+    padding: 25px 15px 15px;
+  }
+
+  .submission-registration-container {
+    padding: 25px 20px;
+  }
+
+  .submission-registration-container h2 {
+    font-size: 25px;
+  }
+
+  .submission-registration-container p {
+    text-align: left;
+  }
+}
