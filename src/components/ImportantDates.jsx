@@ -2,14 +2,14 @@ import "./ImportantDates.css";
 
 const ImportantDates = () => {
   const dates = [
-    { title: "Call for Papers", date: "15 April 2026" },
-    { title: "Abstract Submission Deadline", date: "15 August 2026" },
-    { title: "Acceptance Notification", date: "21 August 2026" },
+    { title: "Call for Thesis, Project Idea, Hackathon, Conference Paper ", date: "Open" },
+    // { title: "Abstract Submission Deadline", date: "15 August 2026" },
+    // { title: "Acceptance Notification", date: "21 August 2026" },
     { title: "Full Length Paper Submission", date: "10 September 2026" },
     { title: "Notification of acceptance", date: "18 September 2026" },
-    { title: "Virtual review of Hackathon/Project working model", date: "25-30 September 2026" },
-    { title: "Final Thesis Submission/Project Working Model", date: " 30 September 2026" },
-    { title: "Early bird registration", date: "7 October 2026" },
+    { title: "Review of Hackathon/Project Working Model ", date: "25-30 September 2026" },
+    // { title: "Final Thesis Submission/Project Working Model", date: " 30 September 2026" },
+    { title: "Early Bird Registration Deadline ", date: "7 October 2026" },
     { title: "Final Registration Deadline", date: "15 October 2026" },
   ];
 
