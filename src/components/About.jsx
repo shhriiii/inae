@@ -17,19 +17,19 @@ const About = () => {
         <div className="submission-buttons">
           <Link to="/hackathon-submission">
             <button className="btn filled">
-              Hackathon Submission
+              Hackathon 
             </button>
           </Link>
 
           <Link to="/project-submission">
             <button className="btn filled">
-              Project Submission
+              Project/Idea Exhibition
             </button>
           </Link>
 
           <Link to="/thesis-submission">
             <button className="btn filled">
-              Thesis Submission
+              Thesis Presentation
             </button>
           </Link>
 

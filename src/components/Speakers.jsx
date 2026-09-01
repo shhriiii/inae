@@ -2,11 +2,11 @@ import "./Speakers.css";
 
 const Speakers = () => {
   const speakers = [
-    {
-      name: "Dr. Anil Kakodkar",
-      role: "Former Director and distinguished Scientist, Bhabha Atomic Research Centre (BARC), Trombay, Mumbai. Chairman of the Board of Governors, IIT Bombay. Atomic Energy Commission of India.",
-      img: "https://www.rknec.edu/wp-content/uploads/2023/12/Dr.-Anil-Kakodkar.jpg",
-    },
+    // {
+    //   name: "Dr. Anil Kakodkar",
+    //   role: "Former Director and distinguished Scientist, Bhabha Atomic Research Centre (BARC), Trombay, Mumbai. Chairman of the Board of Governors, IIT Bombay. Atomic Energy Commission of India.",
+    //   img: "https://www.rknec.edu/wp-content/uploads/2023/12/Dr.-Anil-Kakodkar.jpg",
+    // },
 
     {
       name: "Dr. B.K. Das",
@@ -14,10 +14,16 @@ const Speakers = () => {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXPFQzY2vlaEEw-IiPaUulEtVP-d5v0gzr_0jV-OsTrA&s=10",
     },
 
+
     {
       name: "Dr. A.K. Tyagi",
       role: "Director, Chemistry Group, BARC, Mumbai. Senior Professor (Chemistry), Homi Bhabha National Institute (HBNI), Mumbai. Prestigious Vigyan Shri Award from the Hon'ble President of India.",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNvK8dImtsXwEMQ9J5vOpOMDfNVGpuPtS-YCQNUdDYLg&s",
+    },
+    {
+      name: "Rajiv Prakash",
+      role: "Director Indian Institute of Technology Bhilai, India",
+      img: "https://media.licdn.com/dms/image/v2/D4D03AQFG6LmsiU_WpQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665237201060?e=1789603200&v=beta&t=bA8xhjq29cvDi8ub57ay80c2n7TPsXhFZIecMI6KpCM",
     },
 
     {

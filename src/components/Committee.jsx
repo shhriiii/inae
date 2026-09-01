@@ -80,7 +80,7 @@ import { useState } from "react";
 import "./Committee.css";
 
 const Committee = () => {
-  const [activeTab, setActiveTab] = useState("advisory");
+  const [activeTab, setActiveTab] = useState("organizing");
 
   const advisory = [
     { name: "Prof. Rajeev Prakash", role: "Director, IIT Bhilai" },
@@ -96,13 +96,13 @@ const Committee = () => {
 
   const organizingMain = [
     { name: "Dr. N. V. Ramana Rao", role: "Chief Patron - Director, NIT Raipur" },
-    { name: "Dr. Sivaji Chakravorti", role: "Chief Patron - Vice President, INAE" },
+    { name: "Dr. Sivaji Chakravorti", role: "Patron - Vice President, INAE" },
     { name: "Prof. G.P.S.C Mishra", role: "Patron - Dean R & C, NIT Raipur" },
-    { name: "Prof. Shubhrata Gupta", role: "Patron - Dean Academics, NIT Raipur" },
-    { name: "Prof. Samir Bajpai", role: "Co-Patron - Head, CDC, NIT Raipur" },
-    { name: "Prof. N.D. Londhe", role: "Co-Patron - Registrar, NIT Raipur" },
-    { name: "Dr. Archana Sharma", role: "Convenors - ANRF PM Professor, NIT Raipur" },
-    { name: "Dr. N.V.S. Naidu", role: "Convenors - HOD Mechanical Engineering, NIT Raipur" },
+    // { name: "Prof. Shubhrata Gupta", role: "Patron - Dean Academics, NIT Raipur" },
+    // { name: "Prof. Samir Bajpai", role: "Co-Patron - Head, CDC, NIT Raipur" },
+    // { name: "Prof. N.D. Londhe", role: "Co-Patron - Registrar, NIT Raipur" },
+    { name: "Dr. Archana Sharma", role: "Co-Patron, ANRF PM Professor, NIT Raipur" },
+    { name: "Dr. N.V.S. Naidu", role: "Co-Patron,HOD Mechanical Engineering, NIT Raipur" },
 
     { name: "Lt. Col. Shobhit Rai", role: "Organizing Committee (INAE) - Deputy Executive Director, INAE" },
     { name: "Ms. Mimansa Gulati Babbar", role: "Organizing Committee (INAE) - Project Scientist-II, INAE" },
@@ -148,7 +148,7 @@ const Committee = () => {
     {
       name: "Dr. Shashi Kant Verma",
       role: "Assistant Professor, Mech. Engg. NIT Raipur",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQHjsaEgIcnd5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517010160548?e=1785974400&v=beta&t=9QpU-RhGb0uIqR1hREeX20Rz4Cn_F3Hn6qkIc-BF_xo",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQHjsaEgIcnd5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517010160548?e=1789603200&v=beta&t=ZXmmIAKQ3_MD-_Y_tACqqlT6s4hkuuCTYE8XspNHBek",
       email: "skverma.me@nitrr.ac.in",
     },
     {
@@ -164,21 +164,21 @@ const Committee = () => {
       <h2>Committees</h2>
 
       {/* Tabs */}
-      <div className="tabs">
-        <button
-          className={activeTab === "advisory" ? "active" : ""}
-          onClick={() => setActiveTab("advisory")}
-        >
-          Advisory Committee
-        </button>
+<div className="tabs">
+  <button
+    className={activeTab === "organizing" ? "active" : ""}
+    onClick={() => setActiveTab("organizing")}
+  >
+    Organizing Committee
+  </button>
 
-        <button
-          className={activeTab === "organizing" ? "active" : ""}
-          onClick={() => setActiveTab("organizing")}
-        >
-          Organizing Committee
-        </button>
-      </div>
+  <button
+    className={activeTab === "advisory" ? "active" : ""}
+    onClick={() => setActiveTab("advisory")}
+  >
+    Advisory Committee
+  </button>
+</div>
 
       <div className="committee-container">
 

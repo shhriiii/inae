@@ -11,46 +11,98 @@ const ProjectSubmission = () => {
 
           <h1>Project Submission</h1>
 
+          <div className="registration-notice">
+            <strong>Registration Link:</strong> Google Form for registration
+            will be available soon. Microsoft CMT Link is available in
+            General Submission Instructions section.
+          </div>
+
           <p>
-            <strong>Methodology, Implementation procedure in abstract format.</strong>
+            <strong>
+              Methodology, Implementation procedure in abstract format.
+            </strong>
           </p>
 
           <h2>Project Exhibition Themes</h2>
 
-          <ul>
-            <li>ET 1: Eco-Friendly Construction: Blending Heritage with Sustainability</li>
-            <li>ET 2: Metallurgy, Water & Energy Management: From Legacy to Cutting-Edge Solutions</li>
-            <li>ET 3: Bio-Inspired Engineering: Nature-Inspired Innovations for Future Technologies</li>
-            <li>ET 4: AI-Driven Smart Welding & Additive Manufacturing</li>
-            <li>ET 5: Next-Generation MSMEs: Digital Twins and Smart Manufacturing</li>
-            <li>ET 6: Emerging Challenges and Future Technologies</li>
-          </ul>
-
-          <h2>Submission Instructions</h2>
-
-          <ul>
-            <li>All submissions should be done through Microsoft CMT.</li>
-            <li>The sample paper template (short article) is made available in the Download Menu.</li>
-            <li>All submissions will be checked for plagiarism, requiring less than 15%.</li>
-          </ul>
-
-          <h2>Submission Guidelines</h2>
+          <p>
+            Participants may develop innovative solutions for Project
+            Exhibition/Idea in any of the following thematic areas:
+          </p>
 
           <ul>
             <li>
-              Submission of manuscript includes a commitment by the corresponding author to ensure that at least one author registers for the conclave and presents the work.
+              ET 1: Eco-Friendly Construction: Blending Heritage with
+              Sustainability
             </li>
 
             <li>
-              The camera-ready version must be in the prescribed format and should include all reviewer recommendations.
+              ET 2: Metallurgy, Water & Energy Management: From Legacy to
+              Cutting-Edge Solutions
             </li>
 
             <li>
-              If the manuscript does not comply with publisher standards, it will not be considered for publication.
+              ET 3: Bio-Inspired Engineering: Nature-Inspired Innovations for
+              Future Technologies
+            </li>
+
+            <li>
+              ET 4: AI-Driven Smart Welding & Additive Manufacturing
+            </li>
+
+            <li>
+              ET 5: Next-Generation MSMEs: Digital Twins and Smart
+              Manufacturing
+            </li>
+
+            <li>
+              ET 6: Emerging Challenges and Future Technologies
             </li>
           </ul>
 
-          {/* ================= NEW CONTENT START ================= */}
+          <h2>General Submission Instructions</h2>
+
+          <ul>
+            <li>
+              All submissions should be done through{" "}
+              <a
+                href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2Fyeiss2026"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Microsoft CMT
+              </a>.
+            </li>
+
+            <li>
+              The sample paper template (short article) is made available in
+              the{" "}
+              <a
+                href="/download"
+                className="download-link"
+              >
+                Download Menu
+              </a>.
+            </li>
+
+            <li>
+              All submissions will be checked for plagiarism, requiring less
+              than 15%.
+            </li>
+
+            <li>
+              Submission of manuscript includes a commitment by the
+              corresponding author to ensure that at least one of the authors
+              of the manuscript registers for the conclave and presents
+              his/her/their work.
+            </li>
+
+            <li>
+              The camera-ready version must be in the prescribed format and
+              should include all the reviewer recommendations, failing which
+              the work will not be submitted for publication as a proceeding.
+            </li>
+          </ul>
 
           <h2>Project Exhibition Procedure</h2>
 
@@ -128,8 +180,8 @@ const ProjectSubmission = () => {
           </ul>
 
           <p>
-            Power supply will be provided on request. Participants shall arrange
-            any specialised equipment required for demonstration.
+            Power supply will be provided on request. Participants shall
+            arrange any specialised equipment required for demonstration.
           </p>
 
           <h3>5. Exhibition Schedule</h3>
@@ -162,38 +214,51 @@ const ProjectSubmission = () => {
                 <th>Weightage</th>
               </tr>
             </thead>
+
             <tbody>
               <tr>
                 <td>Innovation and Novelty</td>
                 <td>20</td>
               </tr>
+
               <tr>
                 <td>Technical Merit</td>
                 <td>20</td>
               </tr>
+
               <tr>
                 <td>Practical Utility</td>
                 <td>20</td>
               </tr>
+
               <tr>
                 <td>Design and Prototype Quality</td>
                 <td>15</td>
               </tr>
+
               <tr>
                 <td>Societal and Industrial Relevance</td>
                 <td>10</td>
               </tr>
+
               <tr>
                 <td>Sustainability</td>
                 <td>5</td>
               </tr>
+
               <tr>
                 <td>Presentation and Demonstration</td>
                 <td>10</td>
               </tr>
+
               <tr>
-                <td><strong>Total</strong></td>
-                <td><strong>100</strong></td>
+                <td>
+                  <strong>Total</strong>
+                </td>
+
+                <td>
+                  <strong>100</strong>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -203,23 +268,47 @@ const ProjectSubmission = () => {
           <p>
             Awards will be presented to the best projects in recognition of
             innovation, technical excellence, and societal impact. Special
-            awards may also be instituted for outstanding interdisciplinary and
-            sustainable engineering solutions.
+            awards may also be instituted for outstanding interdisciplinary
+            and sustainable engineering solutions.
           </p>
 
           <h3>8. General Guidelines</h3>
 
           <ul>
-            <li>The project must represent the original work of the participants.</li>
-            <li>Teams shall clearly acknowledge the use of open-source software, datasets, or external support, if any.</li>
-            <li>Hazardous materials or unsafe demonstrations shall not be permitted without prior approval.</li>
-            <li>The Organizing Committee reserves the right to reject any exhibit that does not comply with safety or ethical standards.</li>
-            <li>The decision of the Jury shall be final and binding.</li>
-            <li>All registered participants will receive Certificates of Participation.</li>
-            <li>Outstanding projects may be considered for incubation support, industry interaction, or recommendation for special recognition by the Organizing Committee.</li>
-          </ul>
+            <li>
+              The project must represent the original work of the participants.
+            </li>
 
-          {/* ================= NEW CONTENT END ================= */}
+            <li>
+              Teams shall clearly acknowledge the use of open-source software,
+              datasets, or external support, if any.
+            </li>
+
+            <li>
+              Hazardous materials or unsafe demonstrations shall not be
+              permitted without prior approval.
+            </li>
+
+            <li>
+              The Organizing Committee reserves the right to reject any
+              exhibit that does not comply with safety or ethical standards.
+            </li>
+
+            <li>
+              The decision of the Jury shall be final and binding.
+            </li>
+
+            <li>
+              All registered participants will receive Certificates of
+              Participation.
+            </li>
+
+            <li>
+              Outstanding projects may be considered for incubation support,
+              industry interaction, or recommendation for special recognition
+              by the Organizing Committee.
+            </li>
+          </ul>
 
         </div>
       </section>

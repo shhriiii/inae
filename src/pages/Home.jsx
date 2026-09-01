@@ -11,13 +11,16 @@ import Footer from "../components/Footer";
 import Advisory from "../components/Advisory";
 import Committee from "../components/Committee";
 import SubmissionRegistration from "../components/SubmissionRegistration";
+import VideoSection from "../components/VideoSection";
 const Home = () => {
   return (
 <>
   <Navbar />
   <Hero />
   <Sponsors />
+   <VideoSection />
   <About />
+ 
   <SubmissionRegistration />
   <ImportantDates />
     <Institute />

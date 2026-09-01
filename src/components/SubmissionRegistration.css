@@ -48,3 +48,48 @@
     text-align: left;
   }
 }
+.submission-registration {
+  background: #f4f6fb;
+  padding: 60px 20px;
+}
+
+.submission-registration-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.registration-notice {
+  background: #fff3cd;
+  border: 2px solid #ff9d2f;
+  color: #0c1c5a;
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin: 0 auto 35px;
+  max-width: 900px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.registration-notice strong {
+  color: #d97706;
+}
+
+.cmt-button {
+  display: inline-block;
+  background: #ff9d2f;
+  color: #000;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 10px 0 30px;
+  transition: 0.3s;
+}
+
+.cmt-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
