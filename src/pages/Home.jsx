@@ -12,16 +12,19 @@ import Advisory from "../components/Advisory";
 import Committee from "../components/Committee";
 import SubmissionRegistration from "../components/SubmissionRegistration";
 import VideoSection from "../components/VideoSection";
+import MediaCoverage from "../components/MediaCoverage";
 const Home = () => {
   return (
 <>
   <Navbar />
   <Hero />
   <Sponsors />
-   <VideoSection />
   <About />
- 
   <SubmissionRegistration />
+   <VideoSection />
+  
+  
+  <MediaCoverage />
   <ImportantDates />
     <Institute />
     <Speakers />
