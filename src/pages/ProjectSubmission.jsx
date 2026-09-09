@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const ProjectSubmission = () => {
   return (
@@ -75,15 +76,15 @@ const ProjectSubmission = () => {
             </li>
 
             <li>
-              The sample paper template (short article) is made available in
-              the{" "}
-              <a
-                href="/download"
-                className="download-link"
-              >
-                Download Menu
-              </a>.
-            </li>
+  The sample paper template (short article) is made available in the{" "}
+  <Link
+    to="/download"
+    className="download-link"
+  >
+    Download Menu
+  </Link>
+  .
+</li>
 
             <li>
               All submissions will be checked for plagiarism, requiring less
