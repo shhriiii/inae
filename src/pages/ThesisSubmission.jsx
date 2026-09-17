@@ -103,6 +103,18 @@ const ThesisSubmission = () => {
               the work will not be submitted for publication as a proceeding.
             </li>
           </ul>
+                    <div className="registration-video">
+            <h2>How to do Submission</h2>
+
+            <div className="video-container">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/XSqJdZp9qZs"
+                title="How to Register"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
 
         </div>
       </section>

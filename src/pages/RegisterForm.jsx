@@ -232,7 +232,7 @@ const RegisterForm = () => {
 
             </tbody>
           </table>
-           <div className="registration-video">
+           {/* <div className="registration-video">
             <h2>How to Register</h2>
 
             <div className="video-container">
@@ -243,7 +243,7 @@ const RegisterForm = () => {
                 allowFullScreen
               ></iframe>
             </div>
-          </div>
+          </div> */}
 
         </div>
         
