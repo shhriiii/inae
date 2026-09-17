@@ -294,11 +294,9 @@ const HackathonSubmission = () => {
 
           <h1>Hackathon Submission</h1>
 
-          <div className="registration-notice">
-            <strong>Registration Link:</strong> Google Form for registration
-            will be available soon. Microsoft CMT Link is available in
-            General Submission Instructions section.
-          </div>
+          {/* <div className="registration-notice"> */}
+
+          {/* </div> */}
 
           <h2>Hackathon</h2>
 
@@ -440,6 +438,16 @@ const HackathonSubmission = () => {
     Download Menu
   </Link>
   .
+</li>
+<li> 
+  For registration, please use the following link : 
+              <Link
+    to="/register"
+    className="download-link"
+  >
+     Registration Link 
+  </Link>
+  
 </li>
 
             <li>

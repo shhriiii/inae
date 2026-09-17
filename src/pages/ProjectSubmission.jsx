@@ -85,6 +85,16 @@ const ProjectSubmission = () => {
   </Link>
   .
 </li>
+<li> 
+  For registration, please use the following link : 
+              <Link
+    to="/register"
+    className="download-link"
+  >
+     Registration Link 
+  </Link>
+  
+</li>
 
             <li>
               All submissions will be checked for plagiarism, requiring less

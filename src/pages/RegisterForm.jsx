@@ -33,13 +33,49 @@ const RegisterForm = () => {
           margin-bottom: 20px;
         }
 
-        .registration-note {
-          background: #fff3cd;
-          border-left: 5px solid #ff9d2f;
-          padding: 15px 20px;
+        /* Normal registration link - no yellow box */
+        .registration-link-text {
           margin: 20px 0 30px;
-          border-radius: 6px;
           line-height: 1.6;
+          // font: #0c1c5a !important;
+          // font-color: #0c1c5a;
+
+        }
+
+        .registration-link {
+          color: #0645ad !important;
+          // font-color: #0c1c5a !important;
+          font-weight: 600;
+          text-decoration: underline;
+        }
+
+        .registration-link:hover {
+          color: #0c1c5a;
+        }
+
+        /* How to Register Video */
+        .registration-video {
+          margin: 30px 0 40px;
+        }
+
+        .registration-video h2 {
+          margin-bottom: 15px;
+        }
+
+        .video-container {
+          position: relative;
+          width: 100%;
+          max-width: 900px;
+          margin: 0 auto;
+          aspect-ratio: 16 / 9;
+          overflow: hidden;
+          border-radius: 10px;
+        }
+
+        .video-container iframe {
+          width: 100%;
+          height: 100%;
+          border: 0;
         }
 
         .registration-table {
@@ -87,6 +123,10 @@ const RegisterForm = () => {
           .registration-table td {
             padding: 10px;
           }
+
+          .registration-video {
+            margin-top: 25px;
+          }
         }
       `}</style>
 
@@ -94,27 +134,24 @@ const RegisterForm = () => {
         <div className="registration-container">
 
           <h1>Registration</h1>
-          <div className="registration-notice">
-  <strong>Registration Link:</strong>{" "}
-  Google Form for registration will be available soon.
-</div>
 
-          <h2>Registration Charges</h2>
+          {/* Registration Link */}
+          <p className="registration-link-text">
+            <strong>Registration Link:</strong>{" "}
+            <a
+              href="https://forms.gle/3uwM9picYgCepT7z8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="registration-link"
+            >
+              Click here to register
+            </a>
+          </p>
 
-          <div className="registration-note">
-            <strong>Important Registration Fee Notice:</strong>{" "}
-            The registration fee applicable will be based on the actual date
-            of payment. Participants must pay the fee corresponding to the
-            applicable date.
-            <br />
-            <br />
-            For example, if payment is made on <strong>8 October</strong>,
-            the applicable fee is <strong>₹3,500</strong>. Payment of the
-            earlier fee of ₹3,000 will <strong>not be considered valid</strong>.
-            Participants are requested to carefully check the applicable fee
-            before making the payment.
-          </div>
+          {/* How to Register Video */}
+         
 
+          {/* Registration Table */}
           <table className="registration-table">
             <thead>
               <tr>
@@ -133,7 +170,7 @@ const RegisterForm = () => {
                   School students (8th to 12th)
                 </td>
                 <td>
-                  No Fee
+                  NIL
                 </td>
               </tr>
 
@@ -144,7 +181,7 @@ const RegisterForm = () => {
                   School students (8th to 12th)
                 </td>
                 <td>
-                  No Fee
+                  NIL
                 </td>
               </tr>
 
@@ -162,7 +199,7 @@ const RegisterForm = () => {
                   UG / PG / PhD
                 </td>
                 <td>
-                  No Fee
+                  NIL
                 </td>
               </tr>
 
@@ -172,17 +209,11 @@ const RegisterForm = () => {
                   Full Length Paper – Publication as Extended Version in
                   Transactions of INAE as per Journal Terms
                 </td>
-
                 <td>
                   UG / PG / PhD / Young Professionals from Industry / Faculty
                 </td>
-
                 <td>
-                  ₹3,000 – Before 7th Oct
-                  <br />
-                  ₹3,500 – 8th to 15th Oct
-                  <br />
-                  ₹4,000 – Spot Registration
+                  NIL
                 </td>
               </tr>
 
@@ -191,22 +222,31 @@ const RegisterForm = () => {
                 <td>
                   Full Length Paper – Publication in Scopus-Based Special Issue
                 </td>
-
                 <td>
                   UG / PG / PhD / Young Professionals from Industry / Faculty
                 </td>
-
                 <td>
-                  ₹8,000 – Before 7th Oct
-                  <br />
-                  ₹9,000 – 8th to 15th Oct
+                  NIL
                 </td>
               </tr>
 
             </tbody>
           </table>
+           <div className="registration-video">
+            <h2>How to Register</h2>
+
+            <div className="video-container">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/XSqJdZp9qZs"
+                title="How to Register"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
 
         </div>
+        
       </section>
 
       <Footer />
