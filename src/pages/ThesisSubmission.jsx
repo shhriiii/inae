@@ -12,11 +12,11 @@ const ThesisSubmission = () => {
 
           <h1>Thesis Presentation</h1>
 
-          <div className="registration-notice">
+          {/* <div className="registration-notice">
             <strong>Registration Link:</strong> Google Form for registration
             will be available soon. Microsoft CMT Link is available in
             General Submission Instructions section.
-          </div>
+          </div> */}
 
           <h2>Thesis Presentation</h2>
 

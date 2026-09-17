@@ -200,11 +200,11 @@ const MeetSubmission = () => {
 
           {/* ================= REGISTRATION NOTICE ================= */}
 
-          <div className="registration-notice">
+          {/* <div className="registration-notice">
             <strong>Registration Link:</strong> Google Form for registration
             will be available soon. Microsoft CMT is available in the
             Submission Instructions section.
-          </div>
+          </div> */}
 
           {/* ================= SHORT ARTICLE ================= */}
 

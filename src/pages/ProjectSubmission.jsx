@@ -12,11 +12,11 @@ const ProjectSubmission = () => {
 
           <h1>Project Submission</h1>
 
-          <div className="registration-notice">
+          {/* <div className="registration-notice">
             <strong>Registration Link:</strong> Google Form for registration
             will be available soon. Microsoft CMT Link is available in
             General Submission Instructions section.
-          </div>
+          </div> */}
 
           <p>
             <strong>
