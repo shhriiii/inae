@@ -23,7 +23,7 @@ const Speakers = () => {
     {
       name: "Rajiv Prakash",
       role: "Director Indian Institute of Technology Bhilai, India",
-      img: "https://media.licdn.com/dms/image/v2/D4D03AQFG6LmsiU_WpQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665237201060?e=1789603200&v=beta&t=bA8xhjq29cvDi8ub57ay80c2n7TPsXhFZIecMI6KpCM",
+      img: "https://media.licdn.com/dms/image/v2/D4D03AQFG6LmsiU_WpQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665237201060?e=1792627200&v=beta&t=CC9woo-i6UlcNhWW5DhwmTjhvq6-RoPJanPVniHqojM",
     },
 
     {

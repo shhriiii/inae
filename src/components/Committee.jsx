@@ -148,7 +148,7 @@ const Committee = () => {
     {
       name: "Dr. Shashi Kant Verma",
       role: "Assistant Professor, Mech. Engg. NIT Raipur",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQHjsaEgIcnd5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517010160548?e=1789603200&v=beta&t=ZXmmIAKQ3_MD-_Y_tACqqlT6s4hkuuCTYE8XspNHBek",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQHjsaEgIcnd5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517010160548?e=1792627200&v=beta&t=yj7IU5r8ckRiYleSR5Ly-iv5pdEU5DRIoQlXi8jZQkI",
       email: "skverma.me@nitrr.ac.in",
     },
     {
