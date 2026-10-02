@@ -167,7 +167,7 @@ const RegisterForm = () => {
               <tr>
                 <td>Hackathon</td>
                 <td>
-                  School students (8th to 12th)
+                  School students (8th to 12th), UG / PG / PhD
                 </td>
                 <td>
                   NIL
@@ -178,7 +178,7 @@ const RegisterForm = () => {
               <tr>
                 <td>Project Exhibition/Idea</td>
                 <td>
-                  School students (8th to 12th)
+                   School students (8th to 12th), UG / PG / PhD
                 </td>
                 <td>
                   NIL

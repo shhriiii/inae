@@ -13,6 +13,7 @@ import Committee from "../components/Committee";
 import SubmissionRegistration from "../components/SubmissionRegistration";
 import VideoSection from "../components/VideoSection";
 import MediaCoverage from "../components/MediaCoverage";
+import TentativeSchedule from "../components/TentativeSchedule";
 const Home = () => {
   return (
 <>
@@ -20,6 +21,7 @@ const Home = () => {
   <Hero />
   <Sponsors />
   <About />
+  <TentativeSchedule />
   <SubmissionRegistration />
    <VideoSection />
   
